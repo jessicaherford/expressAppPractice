@@ -4,7 +4,7 @@ var express = require('express'),
 // WHEN a user visits the homepage (like http://localhost:3000)
 app.get("/", function (req, res) {
   // THEN send back the response: 'Hello World'
-  res.send("Hello World");
+  res.send("Home Page");
 });
 
 
