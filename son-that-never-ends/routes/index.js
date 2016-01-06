@@ -6,6 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', {title: 'Verse 1', header1: '/', header2:' | ', header3: 'https://www.youtube.com/watch?v=HNTxr2NJHa0',
   lyric: 'This is the song that doesn\'t end', pic: 'https://s-media-cache-ak0.pinimg.com/236x/27/f3/8d/27f38d1bb63ee2566529721d62b972aa.jpg',
   next: '/verse-2'})
+  //pass control to the next handler, ie /verse-2
 });
 
 router.get('/verse-2', function(req, res) {
